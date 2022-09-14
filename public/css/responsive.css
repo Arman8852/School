@@ -1,0 +1,196 @@
+/* Medium Layout: 1280px.
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+Tablet Layout: 768px.
+@media only screen and (min-width: 768px) and (max-width: 991px) {  
+	
+}
+Mobile Layout: 320px.
+@media only screen and (max-width: 767px) { 
+ 
+    
+}
+Wide Mobile Layout: 480px.
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+} */
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+	body{font-size: 15px;}
+
+	.home-page-hero-area h1, #typed, .typed-cursor{
+		font-size: 25px;
+	}
+	button.navbar-toggler {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: unset;
+	}
+	.xt-nav-bg {
+	    background: #202226;
+	}
+	a.nav-link {
+	    text-align: center;
+	}
+	.sell-btn{
+		font-size: 15px;
+	}
+	.process-header h2,.specify-header-text h2{
+		font-size: 25px;
+		padding-bottom: 8px;
+	}
+	.process-header h2:after{height: 3px;}
+	.sell-btn-area,.mini-footer{
+		text-align: center;
+	}
+	.sell-btn-area h2 {
+    font-size: 25px;
+    line-height: 41px;
+    margin-bottom: 5px;
+}
+	.single-counter-item{
+		margin-bottom: 20px;
+	}
+	.testimonial-header-text h2{
+		font-size: 30px;
+	}
+	.single-testimonial-slide {
+    padding: 0 20px;
+	}
+	.single-testimonial-slide p{
+		padding-left: 35px;
+	}
+	.single-testimonial-slide h3 {
+    font-size: 20px;
+    padding-left: 0;
+	}
+	.single-testimonial-slide h3:before {
+	    left: -23px;
+	    width: 20px;
+	}
+	.specification-form p{
+		font-size: 17px;
+	}
+	.specification-form input[type='submit'], button[type='submit'], .chkout-btn, .go-back, .checkout-form input[type='submit'], .xt-btn{
+		font-size: 15px;
+	}
+	.profile-edit-area input, .login-form input{
+		width: 100%;
+	}
+	.profile-edit-area form{
+		padding: 30px 25px;
+	}
+	.user-profile{padding: 30px 5px;}
+	.checkout-form{margin-bottom: 20px;}
+	
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) { 
+	.single-process-item{
+		margin-bottom: 20px;
+	}
+	.sell-btn-area h2{
+		font-size: 28px;
+	}
+	.single-counter-item p{
+		font-size: 35px;
+	}
+	.single-counter-item span{
+		font-size: 20px;
+	}
+	.single-testimonial-slide p{
+		font-size: 18px;
+	}
+	.single-testimonial-slide h3{
+		font-size: 20px;
+	}
+
+	button.navbar-toggler {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: unset;
+	}
+	.xt-nav-bg {
+	    background: #202226;
+	}
+	a.nav-link {
+	    text-align: center;
+	}
+
+	.checkout-form{
+		margin-bottom: 20px;
+	}
+	.contact-area-header{
+		margin: 20px 0;
+	}
+	.profile-edit-area input, .login-form input{
+		width: 100%;
+	}
+	.home-page-hero-area h1, #typed, .typed-cursor{
+		font-size: 40px;
+	}
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+	.sell-btn{
+		font-size: 18px;
+	}
+	.single-process-item h3 {
+    font-size: 19px;
+	}
+	.single-process-item i.fa {
+	    font-size: 50px;
+	}
+	.sell-btn-area h2 {
+	    font-size: 28px;
+	    line-height: 57px;
+	}
+	.single-counter-item p {
+	    font-size: 40px;
+	}
+	.footer-widget h2 {
+	    font-size: 20px;
+	}
+	.checkout-form{
+		margin-bottom: 20px;
+	}
+	.contact-area-header{
+		margin: 20px 0;
+	}
+	.footer-widget h2{
+		font-size: 20px;
+	}
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+	.sell-btn-area h2 {
+	    font-size: 30px;
+	}
+
+	.contact-area-header p {
+    padding-left: 30px;
+    font-size: 16px;
+	}
+
+	.single-process-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+	.single-process-item i.fa {
+    font-size: 50px;
+}
+
+
+
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+}

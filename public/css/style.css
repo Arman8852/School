@@ -1,0 +1,48 @@
+@font-face {
+font-family: "Banglafont";
+src: url("fonts/bangla/Li Rajdip Satyajit Unicode.ttf");
+font-display: swap;
+}
+
+body{
+  font-family: 'Banglafont', Arial, sans-serif;
+}
+#logo:hover{
+  background-color: transparent;
+  -webkit-box-shadow: 0 0 0 transparent;
+  color: black;
+}
+.menu-area{z-index: 1000;position: sticky;top: 0;background-color:#74b9ff;border-bottom:2px solid black;border-top:2px solid black}
+.dropdown-menu{padding:0;margin:0;border:0 solid transition!important;border:0 solid rgba(0,0,0,.15);border-radius:0;-webkit-box-shadow:none!important;box-shadow:none!important}
+.mainmenu a, .navbar-default .navbar-nav > li > a, .mainmenu ul li a , .navbar-expand-lg .navbar-nav .nav-link{color:#fff;font-size:16px;text-transform:capitalize;padding:16px 20px;font-size:18px;sans-serif;display: block !important;}
+.mainmenu .active a,.mainmenu .active a:focus,.mainmenu .active a:hover,.mainmenu li a:hover,.mainmenu li a:focus ,.navbar-default .navbar-nav>.show>a, .navbar-default .navbar-nav>.show>a:focus, .navbar-default .navbar-nav>.show>a:hover{color: white;background: transparent;outline: 0;}
+/*==========Sub Menu=v==========*/
+.mainmenu .collapse ul > li:hover > a{background: #4CAF50; -webkit-box-shadow: 0 0 15px #fff;
+        box-shadow: 0 0 15px #fff;}
+.mainmenu .collapse ul ul > li:hover > a, .navbar-default .navbar-nav .show .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .show .dropdown-menu > li > a:hover{background: #4CAF50;}
+.mainmenu .collapse ul ul ul > li:hover > a{background: #4CAF50;}
+
+.mainmenu .collapse ul ul, .mainmenu .collapse ul ul.dropdown-menu{background:#1565C0;}
+.mainmenu .collapse ul ul ul, .mainmenu .collapse ul ul ul.dropdown-menu{background:#1E88E5}
+.mainmenu .collapse ul ul ul ul, .mainmenu .collapse ul ul ul ul.dropdown-menu{background:#64B5F6}
+
+/******************************Drop-down menu work on hover**********************************/
+.mainmenu{background: none;border: 0 solid;margin: 0;padding: 0;min-height:20px;width: 100%;}
+@media only screen and (min-width: 767px) {
+.mainmenu .collapse ul li:hover> ul{display:block}
+.mainmenu .collapse ul ul{position:absolute;top:100%;left:0;min-width:250px;display:none}
+/*******/
+.mainmenu .collapse ul ul li{position:relative}
+.mainmenu .collapse ul ul li:hover> ul{display:block}
+.mainmenu .collapse ul ul ul{position:absolute;top:0;left:100%;min-width:250px;display:none}
+/*******/
+.mainmenu .collapse ul ul ul li{position:relative}
+.mainmenu .collapse ul ul ul li:hover ul{display:block}
+.mainmenu .collapse ul ul ul ul{position:absolute;top:0;left:-100%;min-width:250px;display:none;z-index:1}
+
+}
+@media only screen and (max-width: 767px) {
+.navbar-nav .show .dropdown-menu .dropdown-menu > li > a{padding:16px 15px 16px 35px}
+.navbar-nav .show .dropdown-menu .dropdown-menu .dropdown-menu > li > a{padding:16px 15px 16px 45px}
+}
+.add-a:hover,.delete-a:hover,.madrasha-a:hover,a:hover{text-decoration:none}.alert-danger,.alert-info,.alert-success{z-index:1000;position:absolute;right:0;left:0;border:2px solid #000}#search,td,th{border:1px solid #000}.fa-filter,.fa-magnifying-glass,.map-loc,a{color:#e74c3c}.add-a,.delete-a,.delete-teacher,.form-mosque{color:#fff}.delete-a:hover{font-weight:700;color:#000}.madrasha-a:hover{font-weight:700;color:#fff}.madrasha-a{font-weight:700;color:#e74c3c}.add-a:hover{color:#000}a:hover{font-weight:700;color:#3498db}a:visited{text-decoration:underline}.alert-success{color:#000;top:0;-webkit-box-shadow:0 0 25px #fff;box-shadow:0 0 25px #fff}.alert-danger,.alert-info{color:#000;top:20px;-webkit-box-shadow:0 0 25px #fff;box-shadow:0 0 25px #fff}.profile-container{margin-top:5px;padding-bottom:30px}.sort-container{margin-top:60px;padding-bottom:60px}.search-area,.sort-area{border:2px solid #e67e22;padding-bottom:80px;height:300px}.edit-input{font-weight:700;color:#9b59b6}.sort-area{background-color:#a29bfe;margin-top:40px;padding-top:60px;-webkit-box-shadow:0 0 30px #e74c3c;box-shadow:0 0 30px #e74c3c}#search{-webkit-box-shadow:0 0 25px #fff;box-shadow:0 0 25px #fff}#search:hover{-webkit-box-shadow:0 0 20px #2980b9;box-shadow:0 0 20px #2980b9}.bd-area,.search-area{-webkit-box-shadow:0 0 30px #e74c3c}.search-area{background-image:url("/images/bg.png");background-repeat:repeat;margin-top:100px;padding-top:30px;box-shadow:0 0 30px #e74c3c}.bd-area,.map-area{border:2px solid #e67e22;margin-top:40px}.bd-container{margin-bottom:50px}.bd-area{background-color:#7efff5;padding-top:50px;padding-bottom:20px;box-shadow:0 0 30px #e74c3c}.map-area{padding-top:40px;padding-bottom:10px;-webkit-box-shadow:0 0 30px #e74c3c;box-shadow:0 0 30px #e74c3c}h2{font-size:38px}h4{font-size:30px}.fa-map-pin,h5{font-size:25px}.info-container,.map-container,.success-container{margin-top:5px}.map-profile{background-color:#2ecc71;border:5px solid #000;padding-bottom:10px}.madrasha-profile{margin-top:5px;background-color:#9aecdb;border:2px solid #000;padding-bottom:20px}.search-button:hover,.sort-profile{background-color:#3498db}.sort-profile{margin-top:20px;padding-top:20px;padding-bottom:20px;border:2px solid #000}.edit-form,.madrasha-form{padding-bottom:50px;border:2px solid #000}.madrasha-form{margin-top:36px;background-color:#a29bfe}.edit-form{margin-top:0;background-color:#1abc9c}.madrasha-image{margin-top:30px;border:2px solid #000}.horizontal{width:700px}.fa-solid{color:#e74c3c}.fa-map-pin{color:#e74c3c}table{font-size:24px;border-collapse:collapse;width:100%;}td,th{text-align:left;padding:8px}.input-group-text{color:#e74c3c;background-color:#2ecc71;border:2px solid #000;font-weight:700;font-size:16px}.search-glass{background-color:#fff;border:1px solid #000}.input-group-text:hover,.select:hover{-webkit-box-shadow:0 0 20px #fff;box-shadow:0 0 20px #fff}label{padding-top:20px;font-size:25px}.btn-success{border:2px solid #fff}.dropdown-item{display:block;height:40px;width:820px;clear:both;font-weight:400;font-size:20px;color:#212529;text-align:inherit;white-space:nowrap;background-color:transparent;border:1px solid #000}.select,.select-button,.select-button:hover{border:2px solid #000}.dropdown-item:hover{font-size:21px;color:green}.select{background:0 0;color:#fff}.select-button{background:#fff}.select-button:hover{-webkit-box-shadow:0 0 20px #fff;box-shadow:0 0 20px #fff}.search-button{background-color:#1abc9c;width:50px} hr {border-top: 2px dashed black;}  
