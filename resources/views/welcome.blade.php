@@ -74,7 +74,7 @@
                   </select>
                      <span class="input-group-addon">&nbsp&nbsp</span>
                      <select class="select form-control" name="category" required >
-                        <option value='all' selected disabled>উপধরণ</option>
+                        <option value='all' selected disabled>ক্যাটাগরি</option>
                         <option value='৫,০০০ জনের অধিক ছাত্র'>৫,০০০ জনের অধিক ছাত্র</option>
                         <option value='২,৫০০-৫,০০০ জন ছাত্র'>২,৫০০-৫,০০০ জন ছাত্র</option>
                         <option value='১,০০০-২,৫০০ জন ছাত্র'>১,০০০-২,৫০০ জন ছাত্র</option>
