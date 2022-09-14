@@ -97,8 +97,8 @@
                      </tr>
                      <tr>
                         <td class="text-center">{{$madrasha->highestclass}}</td>
-                        <td class="text-center">{{$madrasha->teachernumber}}</td>
-                        <td class="text-center">{{$madrasha->studentnumber}}</td>
+                        <td class="text-center">{{$madrasha->teachernumber}} জন</td>
+                        <td class="text-center">{{$madrasha->studentnumber}} জন</td>
                      </tr>
                   </table>
                   <hr/>
