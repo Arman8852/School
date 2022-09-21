@@ -13,18 +13,14 @@ public static function convertnumber($string) {
                      return $convertedBengaliNums;
                      }
 
-
-
-
 public static function convertstring($string) {
-
-            $bengali = ['বিভাগ','জেলা','উপজেলা','ধরণ','উপধরণ','ক্যাটাগরি','উপ'];
-            $english = ['division','district','subdistrict','type','subtype','category','sub'];
-             $convertedEnglishStrings = str_replace($english,$bengali,$string);
+                     $bengali = ['উপ', 'বিভাগ', 'জেলা', 'ধরণ', 'ক্যাটাগরি', ];
+                     $english = ['sub','division','district','type','category'];
+                     $convertedBengali = str_replace($english,$bengali,$string);
     
-            return $convertedEnglishStrings;
-
+                     return $convertedBengali;
                      }
+
 
 }
 

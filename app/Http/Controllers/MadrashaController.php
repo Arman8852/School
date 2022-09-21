@@ -65,12 +65,11 @@ class MadrashaController extends Controller
 
         foreach($madrasha_columns as $c){
 
-            if($request->input($c) != null){
+            if($request->has($c)){
 
                 $Madrasha->$c = $request->input($c);
 
             }
-           
 
         }
 
@@ -82,11 +81,11 @@ class MadrashaController extends Controller
 
         foreach($info_columns as $c){
 
-            if($request->input($c) != null){
+            if($request->has($c)){
 
                 $Information->$c = $request->input($c);
 
-            }  
+            }
 
         }
 
@@ -186,9 +185,8 @@ class MadrashaController extends Controller
             if($request->input($c) != null){
 
                 $information->$c = $request->input($c);
-                
-            }
 
+            }
 
         }
 
@@ -363,7 +361,7 @@ class MadrashaController extends Controller
         return json_encode($subtypes);
     }
 
-    public function Sortmadrashaprofile(Request $request)
+  public function Sortmadrashaprofile(Request $request)
     {
 
     $inputs = ['division','district','subdistrict','type','category','subtype'];
@@ -411,9 +409,8 @@ class MadrashaController extends Controller
 
         $madrashas =  Madrasha::where($region, '=', $name)->paginate(20);
 
-        $count =  Helpers::convertnumber($madrashas->total());
 
-        $title = $name .' '.$title .' এর মাদ্রাসা সমূহ ('.$count.'টি মাদ্রাসা) ';
+        $title = $name .' '.$title .' এর মাদ্রাসা সমূহ';
 
         }
 
@@ -424,15 +421,16 @@ class MadrashaController extends Controller
 
         $madrashas = $madrashas = Madrasha::where([[$region, '=', $name], ['type', '=', $type], ])->paginate(20);
 
-        $count =  Helpers::convertnumber($madrashas->total());
-
-            $title = $name .' '. $title .' এর '. $type . ' মাদ্রাসা সমূহ ('.$count.'টি মাদ্রাসা) ';
+            $title = $name .' '. $title .' এর '. $type . ' মাদ্রাসা সমূহ';
 
         }
 
     if(!$madrashas->isEmpty()){
 
-        return view('regionalview', compact('madrashas', 'title'));
+         $count =  Helpers::convertnumber($madrashas->total());
+
+
+        return view('regionalview', compact('madrashas', 'title','count'));
 
     }
 

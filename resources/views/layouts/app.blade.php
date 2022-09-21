@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Styles -->
     <link href="/css/app.css" rel="stylesheet">
+    <!-- Bootstrap  -->
+      <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
 </head>
 <body>
 
@@ -20,5 +22,6 @@
 
     <!-- Scripts -->
     <script src="/js/app.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
 </body>
 </html>

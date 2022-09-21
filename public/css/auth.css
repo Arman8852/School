@@ -1,0 +1,19 @@
+@font-face {
+font-family: "Banglafont";
+src: url("fonts/bangla/Li Rajdip Satyajit Unicode.ttf");
+font-display: swap;
+}
+
+body{
+  font-family: 'Banglafont', Arial, sans-serif;background-image:url("/images/bg.png");background-repeat:repeat;
+}
+
+.auth{
+  border: 2px solid black;
+  background-color: #7ed6df;
+  box-shadow:35px 35px 35px #34495e}
+}
+.auth-button{
+border: 2px solid black;
+}
+

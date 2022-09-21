@@ -28,7 +28,7 @@
       </div>
       <div class='col-md-10 text-center justify-content-center' style='margin-top: 5px;' id="map"></div>
       <script src="/js/jquery.min.js"></script>
-      <script src="https://maps.googleapis.com/maps/api/js?key=ENTER_GOOGLE_MAP_API_KEY&callback=initMap&v=weekly"
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXAiY-dtFXQPvhX9tTGAgUEvDDqHnAc_A&callback=initMap&v=weekly"
          defer></script>
       <script type="text/javascript">
          function initMap() {

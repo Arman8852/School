@@ -15,9 +15,7 @@ class Madrasha extends Model
     {
         return $this->hasMany(Teacher::class);
     }
-
-    
-     protected $attributes = [
+    protected $attributes = [
         'founder' => '.........',
         'foundationyear' =>'.........',
         'founder' => '.........',

@@ -37,9 +37,21 @@
                             </ul>
                         </li>
                         @endforeach
-                        <li class="nav-item">
-                        <a class="nav-link" href="/addprofile">নতুন মাদ্রাসার প্রোফাইল</a>
-                        </li>
+
+        <li class="active dropdown">
+                            <a class="dropdown-toggle" href="#" style="color:#e74c3c;" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b><i class="fa-solid fa-user" style="color:#e74c3c;"></i>&nbsp{{Auth::user()->name}}</b></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            
+                            <li>
+                                <a href="/addprofile" ><i class="fa-solid fa-mosque" style="color:white;"></i>&nbsp&nbspনতুন মাদ্রাসার প্রোফাইল</a>
+                               
+                            </li>
+                             <li>
+                                <a  href="/logout" ><i class="fa-solid fa-power-off" style="color:white;"></i>&nbsp&nbspলগআউট</a>
+                            </li>
+
+                        </ul>
+                    </li>
                     </ul>
                 </div>
             </nav>
