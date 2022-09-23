@@ -13,6 +13,8 @@ public static function convertnumber($string) {
                      return $convertedBengaliNums;
                      }
 
+
+
 public static function convertstring($string) {
                      $bengali = ['উপ', 'বিভাগ', 'জেলা', 'ধরণ', 'ক্যাটাগরি', ];
                      $english = ['sub','division','district','type','category'];
