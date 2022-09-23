@@ -21,7 +21,7 @@
          <div class='col-md-10 text-center sort-profile' >
             <div class='row'>
                <div class='col-md-12 text-center primary-info' id='sort-profile'>
-                  <h4 style="text-align:center;"><i class="fa-solid fa-map-location" style='color:black;'>&nbsp&nbsp</i>&nbsp<b>{{$title}}</b></h4><hr/>
+                  <h4 style="text-align:center;"><i class="fa-solid fa-map-location" style='color:black;'>&nbsp&nbsp</i>&nbsp<b>{{$title}}&nbsp(<span style='color:red;'>{{$count}}টি</span> মাদ্রাসা)</b></h4><hr/>
                   <table class='table table-dark table-striped table-bordered madrasha-info' id='sort-table' style="background-color: transparent; border:2px solid black; margin-top:15px;">
                      <tr id='sort-table'>
                         <th id='sort-table' class="text-center" style='color:black;'>মাদ্রাসা</th>

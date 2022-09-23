@@ -421,7 +421,7 @@ class MadrashaController extends Controller
 
         $madrashas = $madrashas = Madrasha::where([[$region, '=', $name], ['type', '=', $type], ])->paginate(20);
 
-            $title = $name .' '. $title .' এর '. $type . ' মাদ্রাসা সমূহ';
+            $title = $name .' '. $title .' এর '. $type . ' মাদ্রাসা সমূহ ';
 
         }
 

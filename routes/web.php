@@ -42,6 +42,8 @@ Route::get('madrashaprofile/{id}','MadrashaController@Showmadrashaprofile')->mid
 
 Route::get('/downloadprofile/detail/{id}', 'MadrashaController@Downloadmadrashaprofile')->middleware('auth');
 
+//Route::get('/downloadprofile/short/{id}', 'MadrashaController@Downloadmadrashaprofile')->middleware('auth');
+
 Route::post('/edit_madrasha_profile/{id}', 'MadrashaController@Editmadrashaprofile')->middleware('auth');
 
 Route::get('/delete_teacher_profile/{teacher}/{madrasha}', 'MadrashaController@Deleteteacherprofile')->middleware('auth');
